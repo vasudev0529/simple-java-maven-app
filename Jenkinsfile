@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label firstslave
+        label 'firstslave'
     }
     tools { 
         maven 'Maven 3.8.1' 
