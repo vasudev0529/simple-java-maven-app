@@ -1,5 +1,6 @@
 pipeline {
-    agent any
+    agent {
+    label 'firstslave'
     tools { 
         maven 'Maven 3.8.1' 
         jdk 'JDK-11'
