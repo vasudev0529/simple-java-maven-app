@@ -1,5 +1,7 @@
 pipeline {
-    agent slave
+    agent {
+        label firstslave
+    }
     tools { 
         maven 'Maven 3.8.1' 
     }
